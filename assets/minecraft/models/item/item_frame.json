@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1280001 }, "model": "moreores/zircon_ore" },
+    { "predicate": { "custom_model_data": 1280002 }, "model": "moreores/blue_zircon_ore" },
+    { "predicate": { "custom_model_data": 1280003 }, "model": "moreores/ruby_ore" },
+    { "predicate": { "custom_model_data": 1280004 }, "model": "moreores/apatite_ore" }
+  ]
+}
